@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  package="org.ivan" android:versionCode="1" android:versionName="0.1">
+
+
+
+        <uses-permission android:name="android.permission.INTERNET" />
+  	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+		<uses-sdk android:minSdkVersion="8"
+            	android:targetSdkVersion="8" />
+
+  <application android:icon="@drawable/icon" android:label="@string/app_name">
+    <activity android:name=".HelloAndroidActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    
+    <activity android:name=".Insertar"></activity>
+    
+    <activity android:name=".Asunto"></activity>
+    
+     <activity android:name=".CitasDia"></activity>
+     
+      <activity android:name=".Borrar"></activity>
+    
+  </application>
+
+</manifest>
+

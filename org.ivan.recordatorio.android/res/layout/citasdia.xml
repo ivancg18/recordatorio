@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+     <EditText android:id="@+id/FechaC"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Fecha"
+    android:inputType="date" />
+     
+     <Button 
+    android:id="@+id/CitasDia"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:onClick="citasdia"
+    android:text="Obtener las Citas del día"  />
+     
+     <TextView
+        android:id="@+id/TextViewCitas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""/>
+    
+    
+</LinearLayout>

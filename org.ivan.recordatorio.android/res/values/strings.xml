@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello org.ivan.recordatorio.android!</string>
+    <string name="app_name">org.ivan.recordatorio.android</string>
+    <string name="insertar">Insertar</string>
+</resources>
